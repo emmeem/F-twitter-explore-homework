@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: $form-padding-y $form-padding-x;
+  border-style: solid;
+  border-color: $border-color;
+  margin-top: $form-margin-top;
+
+  > .login {
+    @include btn-lgin($primary-color,$primary-color);
+    background-color: $gray-dark;
+  }
+  > .regi {
+    @include btn-regi($white,$primary-color);
+  }
+}
+
+h2 {
+  color: $white;
+}
+
+.phone, .pwd {
+  padding-bottom: $input-padding-bottom;
+  background-color: $body-bg;
+  border-width: 0;
+  border-bottom-width: $border-bottom-width;
+}
+
+.fgpwd {
+  color: $primary-color;
+}
+
+.or {
+  align-items: center;
+}
