@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: $header-margin-y 0;
+}
+  
+h1 {
+  margin-left: $h1-margin-left;
+}
+  
+nav {
+  > ul {
+    margin-right: $nav-margin-right;
+    display: flex;
+    
+    > .login {
+      @include btn-lgin($primary-color,$primary-color);
+    }
+    > .regi {
+      @include btn-regi($white,$primary-color);
+    }
+  }
+}

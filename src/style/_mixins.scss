@@ -2,3 +2,18 @@
   margin-top: 0;
   font-size: $font-size;
 }
+
+@mixin btn-lgin($color, $bd-color) {
+  color: $color;
+  padding: $btn-padding-y $btn-padding-x;
+  border-radius: 80px;
+  border-style: solid;
+  border-color: $bd-color;
+}
+
+@mixin btn-regi($color, $bg-color) {
+  color: $color;
+  background-color: $bg-color;
+  padding: $btn-padding-y $btn-padding-x;
+  border-radius: 80px;
+}
