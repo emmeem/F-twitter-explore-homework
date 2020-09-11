@@ -11,6 +11,7 @@ form {
   padding: $form-padding-y $form-padding-x;
   border-style: solid;
   border-color: $border-color;
+  border-radius: $form-bd-radius;
   margin-top: $form-margin-top;
 
   > .login {
@@ -31,6 +32,7 @@ h2 {
   background-color: $body-bg;
   border-width: 0;
   border-bottom-width: $border-bottom-width;
+  margin-top: 20px;
 }
 
 .fgpwd {

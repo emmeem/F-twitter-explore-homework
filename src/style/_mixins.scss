@@ -7,9 +7,7 @@
   color: $color;
   padding: $btn-padding-y $btn-padding-x;
   border-radius: 80px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: $bd-color;
+  border: 1px solid $bd-color;
 }
 
 @mixin btn-regi($color, $bg-color) {

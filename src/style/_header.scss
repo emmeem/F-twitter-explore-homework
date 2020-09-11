@@ -3,8 +3,7 @@ header {
   justify-content: space-between;
   margin: $header-margin-y 0;
   height: $header-height;
-  border-style: solid;
-  border-width: 0;
+  border: 0 solid;
   border-bottom-width: $border-bottom-width;
 }
   
