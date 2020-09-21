@@ -2,14 +2,15 @@
   margin-top: 0;
   font-size: $font-size;
 }
-
+//TODO feedback: 不确定这里是缩写（无意义的缩写不符合工程实践），还是单词拼写错误（同样不符合工程实践）
+// btn-lgin 和 btn-regi的代码其实相似度高，所以可以再进一步把他俩抽成一个mixin
 @mixin btn-lgin($color, $bd-color) {
   color: $color;
   padding: $btn-padding-y $btn-padding-x;
   border-radius: 80px;
   border: 1px solid $bd-color;
 }
-
+//TODO feedback: 不确定这里是缩写（无意义的缩写不符合工程实践），还是单词拼写错误（同样不符合工程实践）
 @mixin btn-regi($color, $bg-color) {
   color: $color;
   background-color: $bg-color;
